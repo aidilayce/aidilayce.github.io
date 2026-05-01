@@ -1,1 +1,1 @@
-Repo for academic web page. Source code belongs to Jon Barron's public academic website: https://jonbarron.info/. 
+This site is adapted from Cassidy Williams' blahg (https://github.com/cassidoo/blahg), thanks for open-sourcing the beauty!
