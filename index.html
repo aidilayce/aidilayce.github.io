@@ -4,255 +4,237 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Ayce Idil Aytekin">
-  <meta name="description" content="Academic homepage of Ayce Idil Aytekin, PhD student working on 3D hand-object interaction and scene understanding.">
+  <meta name="description" content="Ayce Idil Aytekin — PhD student at the Max Planck Institute for Informatics working on 3D hand-object interaction and robot perception.">
+  <meta property="og:title" content="Ayce Idil Aytekin">
+  <meta property="og:description" content="PhD student working on 3D hand-object interaction, contact-aware perception, and dexterous robot manipulation.">
+  <meta property="og:image" content="https://aidilayce.github.io/images/ace_april.jpg">
+  <meta property="og:url" content="https://aidilayce.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
   <title>Ayce Idil Aytekin</title>
-  <link rel="stylesheet" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/cat.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-  <header class="site-header" id="top">
-    <div class="header-section">
-      <div class="header-frame">
-        <h1 class="name-heading">
-          <button class="name-audio" type="button" data-audio-id="ayce-pronunciation" aria-label="Play Ayce pronunciation">
-            <span>Ayce</span>
-            <svg aria-hidden="true" viewBox="0 0 24 24">
-              <path d="M11 5 6 9H3v6h3l5 4V5Z"></path>
-              <path d="M15.5 8.5a5 5 0 0 1 0 7"></path>
-              <path d="M18 6a8.5 8.5 0 0 1 0 12"></path>
-            </svg>
-          </button>
-          <button class="name-audio" type="button" data-audio-id="idil-pronunciation" aria-label="Play Idil pronunciation">
-            <span>Idil</span>
-            <svg aria-hidden="true" viewBox="0 0 24 24">
-              <path d="M11 5 6 9H3v6h3l5 4V5Z"></path>
-              <path d="M15.5 8.5a5 5 0 0 1 0 7"></path>
-              <path d="M18 6a8.5 8.5 0 0 1 0 12"></path>
-            </svg>
-          </button>
-          <span>Aytekin</span>
-        </h1>
-        <h2>PhD student at Max Planck Institute for Informatics</h2>
-        <audio id="ayce-pronunciation" preload="none">
-          <source src="audio/ayce.mp3" type="audio/mpeg">
-          <source src="audio/ayce.m4a" type="audio/mp4">
-        </audio>
-        <audio id="idil-pronunciation" preload="none">
-          <source src="audio/idil.mp3" type="audio/mpeg">
-          <source src="audio/idil.m4a" type="audio/mp4">
-        </audio>
+  <nav class="sticky-nav" id="sticky-nav" aria-label="Sticky navigation">
+    <div class="sticky-inner">
+      <a class="sticky-name" href="#top">Ayce Idil Aytekin</a>
+      <div class="sticky-links">
+        <a href="#research">Research</a>
+        <a href="#code">Code</a>
+        <a href="docs/CV_2026_Aug_public.pdf">CV</a>
       </div>
-      <a class="portrait-link" href="images/ace_april.jpg" aria-label="Open profile photo">
-        <img class="portrait" src="images/ace_april.jpg" alt="Ayce Idil Aytekin">
-      </a>
     </div>
+  </nav>
 
-    <nav aria-label="Primary navigation">
-      <a href="#top">home</a>
-      <a href="#research">research</a>
-      <a href="#education">education</a>
-      <a href="#work">work</a>
-      <a href="mailto:aaytekin@mpi-inf.mpg.de">email</a>
+  <main id="top">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="nav-name" href="#top">Ayce Idil Aytekin</a>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#code">Code</a>
+        <a href="docs/CV_2026_Aug_public.pdf">CV</a>
+      </div>
     </nav>
-  </header>
 
-  <main>
-    <section class="intro-section" aria-labelledby="about-heading">
-      <h3 id="about-heading">About</h3>
+    <header class="header">
+      <div class="portrait-link">
+        <img class="header-pic" src="images/ace_july.jpg" onerror="this.onerror=null;this.src='images/ace_april.jpg'" alt="Ayce Idil Aytekin">
+      </div>
+      <div class="header-text">
+        <h1>
+          <button class="name-audio" type="button" data-audio-id="ayce-pronunciation" aria-label="Hear Ayce pronounced">Ayce</button>
+          <button class="name-audio" type="button" data-audio-id="idil-pronunciation" aria-label="Hear Idil pronounced">Idil</button>
+          Aytekin
+        </h1>
+        <p class="header-subtitle">PhD student at Max Planck Institute for Informatics</p>
+        <p class="header-email">aaytekin [at] mpi-inf [dot] mpg [dot] de</p>
+        <div class="header-links" aria-label="Profile links">
+          <a href="mailto:aaytekin@mpi-inf.mpg.de" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://scholar.google.de/citations?hl=en&amp;user=PzB6r5EAAAAJ" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+          <a href="https://github.com/aidilayce" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          <a href="docs/CV_2026_Aug_public.pdf" aria-label="Curriculum vitae" title="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <audio id="ayce-pronunciation" preload="none" src="audio/ayce.mp3"></audio>
+      <audio id="idil-pronunciation" preload="none" src="audio/idil.mp3"></audio>
+    </header>
+
+    <section class="bio">
       <p>
-        I am a PhD student at Max Planck Institute for Informatics,
-        <a href="https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence">Visual Computing and Artificial Intelligence Department</a>,
-        advised by <a href="https://people.mpi-inf.mpg.de/~theobalt/">Prof. Christian Theobalt</a>.
+        I am a PhD student in the <a href="https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence">Visual Computing and Artificial Intelligence Department</a> at the Max Planck Institute for Informatics and Saarland University, advised by <a href="https://people.mpi-inf.mpg.de/~theobalt/">Christian Theobalt</a>.
       </p>
       <p>
-        My research focuses on 3D hand-object interaction and scene understanding from visual and tactile input.
-        I have also worked on physics-based 3D human pose estimation, diffusion model efficiency, and medical imaging.
-        Ultimately, I aim to enable intuitive human-robot interaction through robust 3D perception.
-      </p>
-      <p class="inline-links">
-        <a href="https://scholar.google.de/citations?hl=en&amp;user=PzB6r5EAAAAJ">Google Scholar</a>
-        <a href="https://github.com/aidilayce">GitHub</a>
-        <a href="https://people.mpi-inf.mpg.de/~aaytekin/">Departmental Page</a>
+        My research focuses on <strong>contact-aware 3D perception for dexterous manipulation</strong>. I build physically grounded reconstruction methods and visual-tactile representations that recover pose, geometry, and contact from human hand-object interactions, with the goal of turning human interaction data into useful signals for robot learning.
       </p>
     </section>
 
     <section class="news-section" aria-labelledby="news-heading">
-      <h3 id="news-heading">News</h3>
-      <ul class="news-list">
-        <li><strong>Nov 2025:</strong> Our paper <em>FollowMyHold</em> was accepted to <strong>3DV 2026</strong>.</li>
-        <li><strong>Apr 2025:</strong> Our paper <em>PhysDynPose</em> was accepted to <strong>CVPR Rhobin Workshop 2025</strong>.</li>
+      <h2 id="news-heading">News</h2>
+      <ul class="news">
+        <li><span class="date">Apr 2026</span><span><a href="https://arxiv.org/abs/2604.12929">Grasp in Gaussians</a> is now available on arXiv.</span></li>
+        <li><span class="date">Nov 2025</span><span><a href="https://aidilayce.github.io/FollowMyHold-page/">Follow My Hold</a> was accepted to 3DV 2026.</span></li>
+        <li><span class="date">Apr 2025</span><span><a href="https://aidilayce.github.io/PhysDynPose/">PhysDynPose</a> was accepted to the CVPR RHOBIN Workshop.</span></li>
       </ul>
     </section>
 
-    <section class="articles-section" id="research" aria-labelledby="research-heading">
-      <h3 id="research-heading">Research</h3>
+    <section id="research" class="publications" aria-labelledby="publications-heading">
+      <div class="pub-head">
+        <h2 id="publications-heading">Publications</h2>
+        <div class="pub-toggle" aria-label="Filter publications">
+          <button id="btn-selected" class="active" type="button" onclick="showPubs('selected')">Selected</button>
+          <button id="btn-all" type="button" onclick="showPubs('all')">All</button>
+        </div>
+      </div>
 
-      <ul class="articles-list">
-        <li class="article">
-          <a class="teaser-link" href="https://arxiv.org/abs/2604.12929" aria-label="Read Grasp in Gaussians">
-            <img src="images/GraG_teaser.png" alt="Grasp in Gaussians teaser image">
-          </a>
-          <div class="article-copy">
-            <a class="article-title" href="https://arxiv.org/abs/2604.12929">Grasp in Gaussians: Fast Monocular Reconstruction of Dynamic Hand-Object Interactions</a>
-            <span class="article-venue">arXiv 2026</span>
-            <p class="authors">
-              <strong>Ayce Idil Aytekin</strong>, Xu Chen, Zhengyang Shen, Thabo Beeler, Helge Rhodin, Rishabh Dabral, Christian Theobalt
-            </p>
-            <p class="article-links">
-              <a href="https://aidilayce.github.io/GraG-page/">project page</a>
-              <a href="https://github.com/aidilayce/GraG">code</a>
-            </p>
-          </div>
-        </li>
+      <article class="publication">
+        <a class="pub-media-link" href="https://aidilayce.github.io/GraG-page/"><img class="pub-media" src="images/intro_grag.gif" alt="Grasp in Gaussians teaser animation"></a>
+        <div class="pub-body">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2604.12929">Grasp in Gaussians: Fast Monocular Reconstruction of Dynamic Hand–Object Interactions</a></div>
+          <div class="pub-authors"><span class="me">Ayce Idil Aytekin</span>, Xu Chen, Zhengyang Shen, Thabo Beeler, Helge Rhodin, Rishabh Dabral, Christian Theobalt</div>
+          <div class="pub-venue">Under review, 2026</div>
+          <div class="pub-links"><a href="https://arxiv.org/abs/2604.12929">arXiv</a><a href="https://aidilayce.github.io/GraG-page/">project page</a><a href="https://github.com/aidilayce/GraG">code</a><button class="bib-toggle" type="button" onclick="toggleBib(this)">BibTeX</button></div>
+          <pre class="bibtex" hidden>@article{aytekin2026grasp,
+  title={Grasp in Gaussians: Fast Monocular Reconstruction of Dynamic Hand--Object Interactions},
+  author={Aytekin, Ayce Idil and Chen, Xu and Shen, Zhengyang and Beeler, Thabo and Rhodin, Helge and Dabral, Rishabh and Theobalt, Christian},
+  year={2026}
+}</pre>
+        </div>
+      </article>
 
-        <li class="article">
-          <a class="teaser-link" href="https://arxiv.org/pdf/2508.18213" aria-label="Read Follow My Hold">
-            <img src="images/teaser-2.png" alt="Follow My Hold teaser image">
-          </a>
-          <div class="article-copy">
-            <a class="article-title" href="https://arxiv.org/pdf/2508.18213">Follow My Hold: Hand-Object Interaction Reconstruction through Geometric Guidance</a>
-            <span class="article-venue">3D Vision (3DV) 2026, Vancouver</span>
-            <p class="authors">
-              <strong>Ayce Idil Aytekin</strong>, Helge Rhodin, Rishabh Dabral, Christian Theobalt
-            </p>
-            <p class="article-links">
-              <a href="https://aidilayce.github.io/FollowMyHold-page/">project page</a>
-              <a href="https://github.com/aidilayce/FollowMyHold">code</a>
-            </p>
-          </div>
-        </li>
+      <article class="publication">
+        <a class="pub-media-link" href="https://aidilayce.github.io/FollowMyHold-page/"><img class="pub-media" src="images/intro_foho.gif" alt="Follow My Hold teaser animation"></a>
+        <div class="pub-body">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2508.18213">Follow My Hold: Hand-Object Interaction Reconstruction through Geometric Guidance</a></div>
+          <div class="pub-authors"><span class="me">Ayce Idil Aytekin</span>, Helge Rhodin, Rishabh Dabral, Christian Theobalt</div>
+          <div class="pub-venue">International Conference on 3D Vision (3DV), 2026</div>
+          <div class="pub-links"><a href="https://arxiv.org/abs/2508.18213">arXiv</a><a href="https://aidilayce.github.io/FollowMyHold-page/">project page</a><a href="https://github.com/aidilayce/FollowMyHold">code</a><button class="bib-toggle" type="button" onclick="toggleBib(this)">BibTeX</button></div>
+          <pre class="bibtex" hidden>@inproceedings{aytekin2026follow,
+  title={Follow My Hold: Hand-Object Interaction Reconstruction through Geometric Guidance},
+  author={Aytekin, Ayce Idil and Rhodin, Helge and Dabral, Rishabh and Theobalt, Christian},
+  booktitle={International Conference on 3D Vision},
+  year={2026}
+}</pre>
+        </div>
+      </article>
 
-        <li class="article">
-          <a class="teaser-link" href="https://openaccess.thecvf.com/content/CVPR2025W/RHOBIN/papers/Aytekin_Physics-based_Human_Pose_Estimation_from_a_Single_Moving_RGB_Camera_CVPRW_2025_paper.pdf" aria-label="Read Physics-based Human Pose Estimation">
-            <img src="images/physdynpose.png" alt="Physics-based Human Pose Estimation teaser image">
-          </a>
-          <div class="article-copy">
-            <a class="article-title" href="https://openaccess.thecvf.com/content/CVPR2025W/RHOBIN/papers/Aytekin_Physics-based_Human_Pose_Estimation_from_a_Single_Moving_RGB_Camera_CVPRW_2025_paper.pdf">Physics-based Human Pose Estimation from a Single Moving RGB Camera</a>
-            <span class="article-venue">CVPRW 2025, Nashville</span>
-            <p class="authors">
-              <strong>Ayce Idil Aytekin</strong>, Chuqiao Li, Diogo Luvizon, Rishabh Dabral, Martin Oswald, Marc Habermann, Christian Theobalt
-            </p>
-            <p class="article-links">
-              <a href="https://aidilayce.github.io/PhysDynPose/">project page</a>
-              <a href="https://github.com/aidilayce/PhysDynPose">code</a>
-            </p>
-          </div>
-        </li>
+      <article class="publication">
+        <a class="pub-media-link" href="https://aidilayce.github.io/PhysDynPose/"><img class="pub-media" src="images/intro_movicam.gif" alt="PhysDynPose and MoviCam teaser animation"></a>
+        <div class="pub-body">
+          <div class="pub-title"><a href="https://openaccess.thecvf.com/content/CVPR2025W/RHOBIN/html/Aytekin_Physics-based_Human_Pose_Estimation_from_a_Single_Moving_RGB_Camera_CVPRW_2025_paper.html">Physics-based Human Pose Estimation from a Single Moving RGB Camera</a></div>
+          <div class="pub-authors"><span class="me">Ayce Idil Aytekin</span>, Chuqiao Li, Diogo Luvizon, Rishabh Dabral, Martin Oswald, Marc Habermann, Christian Theobalt</div>
+          <div class="pub-venue">CVPR RHOBIN Workshop, 2025</div>
+          <div class="pub-links"><a href="https://openaccess.thecvf.com/content/CVPR2025W/RHOBIN/html/Aytekin_Physics-based_Human_Pose_Estimation_from_a_Single_Moving_RGB_Camera_CVPRW_2025_paper.html">pdf</a><a href="https://aidilayce.github.io/PhysDynPose/">project page</a><a href="https://github.com/aidilayce/PhysDynPose">code</a><button class="bib-toggle" type="button" onclick="toggleBib(this)">BibTeX</button></div>
+          <pre class="bibtex" hidden>@inproceedings{aytekin2025physics,
+  title={Physics-based Human Pose Estimation from a Single Moving RGB Camera},
+  author={Aytekin, Ayce Idil and Li, Chuqiao and Luvizon, Diogo and Dabral, Rishabh and Oswald, Martin and Habermann, Marc and Theobalt, Christian},
+  booktitle={CVPR Workshops},
+  year={2025}
+}</pre>
+        </div>
+      </article>
 
-        <li class="article">
-          <a class="teaser-link" href="https://ieeexplore.ieee.org/abstract/document/10342847" aria-label="Read COVID-19 Detection from Respiratory Sounds">
-            <img src="images/main.png" alt="COVID-19 detection spectrogram teaser image">
-          </a>
-          <div class="article-copy">
-            <a class="article-title" href="https://ieeexplore.ieee.org/abstract/document/10342847">COVID-19 Detection from Respiratory Sounds with Hierarchical Spectrogram Transformers</a>
-            <span class="article-venue">IEEE Journal of Biomedical and Health Informatics 2023</span>
-            <p class="authors">
-              <strong>Ayce Idil Aytekin</strong>, Onat Dalmaz, Kaan Gonc, Haydar Ankishan, Emine U Saritas, Ulas Bagci, Haydar Celik, Tolga Cukur
-            </p>
-            <p class="article-links">
-              <a href="https://github.com/icon-lab/HST">project page</a>
-              <a href="https://github.com/icon-lab/HST">code</a>
-            </p>
-          </div>
-        </li>
+      <article class="publication all-only" hidden>
+        <a class="pub-media-link" href="https://ieeexplore.ieee.org/document/10342847"><img class="pub-media" src="images/main.png" alt="Hierarchical Spectrogram Transformers teaser"></a>
+        <div class="pub-body"><div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10342847">COVID-19 Detection from Respiratory Sounds with Hierarchical Spectrogram Transformers</a></div><div class="pub-authors"><span class="me">Ayce Idil Aytekin</span>, Onat Dalmaz, Kaan Gonc, Haydar Ankishan, Emine U. Saritas, Ulas Bagci, Haydar Celik, Tolga Cukur</div><div class="pub-venue">IEEE Journal of Biomedical and Health Informatics, 2023</div><div class="pub-links"><a href="https://ieeexplore.ieee.org/document/10342847">paper</a><a href="https://github.com/icon-lab/HST">code</a></div></div>
+      </article>
 
-        <li class="article">
-          <a class="teaser-link" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12033/1203306/Detecting-COVID-19-from-respiratory-sound-recordings-with-transformers/10.1117/12.2611490.full" aria-label="Read Detecting COVID-19 from respiratory sound recordings">
-            <img src="images/covid-conf.jpg" alt="COVID-19 respiratory sound recordings teaser image">
-          </a>
-          <div class="article-copy">
-            <a class="article-title" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12033/1203306/Detecting-COVID-19-from-respiratory-sound-recordings-with-transformers/10.1117/12.2611490.full">Detecting COVID-19 from respiratory sound recordings with transformers</a>
-            <span class="article-venue">Proc. SPIE Medical Imaging 2022: Computer-Aided Diagnosis, San Diego</span>
-            <p class="authors">
-              <strong>Ayce Idil Aytekin</strong>, Onat Dalmaz, Haydar Ankishan, Emine U. Saritas, Ulas Bagci, Tolga Cukur, Haydar Celik
-            </p>
-          </div>
-        </li>
+      <article class="publication all-only" hidden>
+        <a class="pub-media-link" href="https://ieeexplore.ieee.org/document/9864937"><img class="pub-media" src="images/mri.gif" alt="Multi-contrast MRI synthesis teaser"></a>
+        <div class="pub-body"><div class="pub-title"><a href="https://ieeexplore.ieee.org/document/9864937">Multi-Contrast MRI Synthesis with Channel-Exchanging-Network</a></div><div class="pub-authors">Onat Dalmaz, <span class="me">Ayce Idil Aytekin</span>, Salman Ul Hassan Dar, Aykut Erdem, Erkut Erdem, Tolga Cukur</div><div class="pub-venue">Signal Processing and Communications Applications Conference (SIU), 2022</div><div class="pub-links"><a href="https://ieeexplore.ieee.org/document/9864937">paper</a></div></div>
+      </article>
 
-        <li class="article">
-          <a class="teaser-link" href="https://ieeexplore.ieee.org/abstract/document/9864937" aria-label="Read Multi-Contrast MRI Synthesis">
-            <img src="images/mri.gif" alt="Multi-Contrast MRI Synthesis teaser animation">
-          </a>
-          <div class="article-copy">
-            <a class="article-title" href="https://ieeexplore.ieee.org/abstract/document/9864937">Multi-Contrast MRI Synthesis with Channel-Exchanging-Network</a>
-            <span class="article-venue">30th Signal Processing and Communications Applications Conference (SIU) 2022, Safranbolu</span>
-            <p class="authors">
-              Onat Dalmaz, <strong>Ayce Idil Aytekin</strong>, Salman Ul Hassan Dar, Aykut Erdem, Erkut Erdem, Tolga Cukur
-            </p>
-          </div>
-        </li>
-      </ul>
+      <article class="publication all-only" hidden>
+        <a class="pub-media-link" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12033/1203306/Detecting-COVID-19-from-respiratory-sound-recordings-with-transformers/10.1117/12.2611490.full"><img class="pub-media" src="images/covid-conf.jpg" alt="Respiratory sound transformer teaser"></a>
+        <div class="pub-body"><div class="pub-title"><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12033/1203306/Detecting-COVID-19-from-respiratory-sound-recordings-with-transformers/10.1117/12.2611490.full">Detecting COVID-19 from Respiratory Sound Recordings with Transformers</a></div><div class="pub-authors"><span class="me">Ayce Idil Aytekin</span>, Onat Dalmaz, Haydar Ankishan, Emine U. Saritas, Ulas Bagci, Tolga Cukur, Haydar Celik</div><div class="pub-venue">SPIE Medical Imaging, 2022</div><div class="pub-links"><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12033/1203306/Detecting-COVID-19-from-respiratory-sound-recordings-with-transformers/10.1117/12.2611490.full">paper</a></div></div>
+      </article>
     </section>
 
-    <section class="timeline-section" id="education" aria-labelledby="education-heading">
-      <h3 id="education-heading">Education</h3>
-      <ul class="timeline-list">
-        <li>
-          <img src="images/mpi_logo_transparent.png" alt="MPII logo">
-          <p><strong>PhD student, MPII &amp; Saarland University</strong><br>July 2024 - present</p>
-        </li>
-        <li>
-          <img src="images/saarland.png" alt="Saarland University logo">
-          <p><strong>PhD student (preparatory phase), Saarland University via cs@maxplanck program</strong><br>October 2022 - June 2024</p>
-        </li>
-        <li>
-          <img src="images/bilkent.png" alt="Bilkent University logo">
-          <p><strong>BSc Electrical and Electronics Engineering, Bilkent University</strong><br>Sept 2018 - June 2022<br>Ranked 3rd among 2022 graduates with GPA 3.96/4.00</p>
-        </li>
-      </ul>
+    <section id="code" class="code-section" aria-labelledby="code-heading">
+      <h2 id="code-heading">Open-Source Projects</h2>
+      <div class="projects">
+        <a class="project" href="https://github.com/aidilayce/GraG" data-repo="aidilayce/GraG">
+          <div class="proj-body">
+            <div class="proj-title">GraG</div>
+            <div class="proj-desc">Official implementation of Grasp in Gaussians.</div>
+            <div class="proj-meta"><span class="proj-badge"><span class="lang-dot"></span>Python</span><span class="proj-badge"><i class="fa-brands fa-github" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <span class="star-count">13</span></span></div>
+          </div>
+        </a>
+        <a class="project" href="https://github.com/aidilayce/FollowMyHold" data-repo="aidilayce/FollowMyHold">
+          <div class="proj-body">
+            <div class="proj-title">FollowMyHold</div>
+            <div class="proj-desc">Official implementation of Follow My Hold (3DV 2026).</div>
+            <div class="proj-meta"><span class="proj-badge"><span class="lang-dot"></span>Python</span><span class="proj-badge"><i class="fa-brands fa-github" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <span class="star-count">70</span></span></div>
+          </div>
+        </a>
+        <a class="project" href="https://github.com/aidilayce/PhysDynPose" data-repo="aidilayce/PhysDynPose">
+          <div class="proj-body">
+            <div class="proj-title">PhysDynPose</div>
+            <div class="proj-desc">PhysDynPose method and the MoviCam dataset.</div>
+            <div class="proj-meta"><span class="proj-badge"><span class="lang-dot"></span>Python</span><span class="proj-badge"><i class="fa-brands fa-github" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <span class="star-count">19</span></span></div>
+          </div>
+        </a>
+        <a class="project" href="https://github.com/icon-lab/HST" data-repo="icon-lab/HST">
+          <div class="proj-body">
+            <div class="proj-title">HST</div>
+            <div class="proj-desc">Hierarchical Spectrogram Transformers for respiratory sounds.</div>
+            <div class="proj-meta"><span class="proj-badge"><span class="lang-dot"></span>Python</span><span class="proj-badge"><i class="fa-brands fa-github" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <span class="star-count">20</span></span></div>
+          </div>
+        </a>
+      </div>
     </section>
 
-    <section class="timeline-section" id="work" aria-labelledby="work-heading">
-      <h3 id="work-heading">Work experience</h3>
-      <ul class="timeline-list">
-        <li>
-          <img src="images/umram-logo-transparent.png" alt="UMRAM logo">
-          <p><strong>UMRAM</strong><br>Undergraduate researcher working on COVID-19 detection and multi-contrast MRI synthesis<br>Dec 2020 - Sep 2022<br>Mentor: <a href="https://kilyos.ee.bilkent.edu.tr/~cukur/">Prof Tolga Cukur</a></p>
-        </li>
-        <li>
-          <img src="images/aselsan-logo-transparent.png" alt="ASELSAN logo">
-          <p><strong>ASELSAN</strong><br>Digital design intern<br>Jul 2021 - Aug 2021</p>
-        </li>
-      </ul>
-    </section>
+    <footer class="footer">
+      © <span id="current-year">2026</span> Ayce Idil Aytekin. Design adapted from <a href="https://nicklashansen.github.io/">Nicklas Hansen</a>, with inspiration from <a href="https://toruowo.github.io/">Toru Lin</a>.
+    </footer>
   </main>
 
-  <footer>
-    This website is adapted from
-    <a href="https://github.com/cassidoo/blahg">Cassidy Williams' blahg</a>,
-    thanks for open-sourcing the beauty!
-  </footer>
-
   <script>
-    const underlineColors = ["#d52d00", "#ef7627", "#ff9a56", "#d162a4", "#b55690", "#a30262", "#d52d00", "#ef7627", "#d162a4", "#a30262", "#0077b6", "#10a2f5", "#24d05a", "#2a9d8f"];
-
-    function setRandomLinkColor() {
-      document.querySelectorAll("a").forEach((link) => {
-        link.style.textDecorationColor = underlineColors[Math.floor(Math.random() * underlineColors.length)];
+    function showPubs(mode) {
+      document.querySelectorAll(".all-only").forEach((publication) => {
+        publication.hidden = mode !== "all";
       });
+      document.getElementById("btn-selected").classList.toggle("active", mode === "selected");
+      document.getElementById("btn-all").classList.toggle("active", mode === "all");
     }
 
-    setRandomLinkColor();
-    document.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("mouseover", setRandomLinkColor);
-    });
+    function toggleBib(button) {
+      const bib = button.closest(".pub-body").querySelector(".bibtex");
+      bib.hidden = !bib.hidden;
+      button.textContent = bib.hidden ? "BibTeX" : "Hide BibTeX";
+    }
 
     document.querySelectorAll(".name-audio").forEach((button) => {
       button.addEventListener("click", () => {
-        const nameAudio = document.getElementById(button.dataset.audioId);
-
-        if (!nameAudio) {
-          return;
-        }
-
-        nameAudio.currentTime = 0;
-        const playPromise = nameAudio.play();
-
-        if (playPromise) {
-          playPromise.catch(() => {});
-        }
+        const audio = document.getElementById(button.dataset.audioId);
+        if (!audio) return;
+        audio.currentTime = 0;
+        audio.play().catch(() => {});
       });
+    });
+
+    const header = document.querySelector(".header");
+    const stickyNav = document.getElementById("sticky-nav");
+    new IntersectionObserver((entries) => {
+      stickyNav.classList.toggle("visible", !entries[0].isIntersecting);
+    }, { threshold: 0 }).observe(header);
+
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+
+    document.querySelectorAll(".project[data-repo]").forEach((project) => {
+      fetch("https://api.github.com/repos/" + project.dataset.repo)
+        .then((response) => response.json())
+        .then((repo) => {
+          if (typeof repo.stargazers_count === "number") {
+            project.querySelector(".star-count").textContent = repo.stargazers_count.toLocaleString();
+          }
+        })
+        .catch(() => {});
     });
   </script>
 </body>
